@@ -1,0 +1,56 @@
+1
+00:00:00,000 --> 00:00:04,694
+Welcome! In this video, we'll break down the K-Means algorithm,
+
+2
+00:00:04,794 --> 00:00:09,717
+a popular method for clustering data. Let's start by understanding
+
+3
+00:00:09,817 --> 00:00:14,132
+the overall idea of grouping similar data points together.
+
+4
+00:00:14,200 --> 00:00:18,774
+The first step in K-Means is initialization, where we select K
+
+5
+00:00:18,874 --> 00:00:23,676
+random points to serve as the initial centroids for our clusters.
+
+6
+00:00:23,733 --> 00:00:26,761
+Next, every data point is assigned to the
+
+7
+00:00:26,861 --> 00:00:31,567
+nearest centroid based on distance, effectively forming initial
+
+8
+00:00:31,667 --> 00:00:35,153
+clusters. This is known as the assignment step.
+
+9
+00:00:35,200 --> 00:00:39,739
+After assigning points, we compute new centroids by taking the
+
+10
+00:00:39,839 --> 00:00:43,929
+mean of all points within each cluster. This update step
+
+11
+00:00:44,029 --> 00:00:47,820
+moves the centroids to the center of their clusters.
+
+12
+00:00:47,866 --> 00:00:51,389
+The algorithm iterates through the assignment and
+
+13
+00:00:51,489 --> 00:00:54,493
+update steps until the centroids no longer
+
+14
+00:00:54,593 --> 00:00:59,742
+change significantly, indicating convergence and well-defined clusters.
+

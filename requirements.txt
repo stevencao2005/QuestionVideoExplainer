@@ -1,0 +1,9 @@
+openai
+manim
+manim-voiceover
+gTTS
+python-dotenv
+setuptools
+opencv-python
+numpy
+pylint
