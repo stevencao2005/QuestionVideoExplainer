@@ -106,7 +106,7 @@ Output lands in `output/media/videos/`.
 | Topic | Output |
 |-------|--------|
 | K-Means Clustering | [`examples/kmeans/`](examples/kmeans/) |
-| Pythagorean Theorem | [`examples/pythagoren_theorem/`](examples/pythagoren_theorem/) |
+| Pythagorean Theorem | [`examples/pythagorean_theorem/`](examples/pythagorean_theorem/) |
 
 ---
 
